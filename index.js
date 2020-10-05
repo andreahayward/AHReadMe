@@ -34,4 +34,24 @@ const questions = [
         choices: ["MIT", "IBM", "Apache"],
         name: "license",
     },
-]
+    {
+        type: "list",
+        message: "Select which badge(s) you'd like to use.",
+        name: "badge",
+    },
+    {
+        type: "input",
+        message: "Project contributors",
+        name: "contributors",
+    },
+    {
+        type: "input",
+        message: "Provide your GitHub username.",
+        name: "username",
+    },
+    {
+        type: "input",
+        message: "Provide your email address.",
+        name: "email",
+    },
+];
