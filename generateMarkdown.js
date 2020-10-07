@@ -6,7 +6,10 @@ function generateMarkdown(data) {
     ${data.description}
 
     ## Table of Contents
-    //fill this in//
+    * [Installation](#installation)
+    * [Usage](#usage)
+    * [Resource(s)](#resource)
+    * [License](#license)
 
     ## Installation
     The following items/steps are required to install this application:
@@ -15,8 +18,13 @@ function generateMarkdown(data) {
     ## Usage
     ${data.usage}
 
+    ## Resource(s)
+    ${data.resource}
+
     ## License
-    //add here
+    ${data.license ==="MIT"?"[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)":data.license==="IBM"?"[![License: IPL 1.0](https://img.shields.io/badge/License-IPL%201.0-blue.svg)](https://opensource.org/licenses/IPL-1.0)":"[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"}
+
+    ## Badge
 
     ## Contributors
     ${data.contributors}
@@ -26,7 +34,7 @@ function generateMarkdown(data) {
 
     ## Contact Info
     *For any additional questions or support please reach out:
-    ${data.githubProfile}
+    ${data.username}
     ${data.email}
 
     `;

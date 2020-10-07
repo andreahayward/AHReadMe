@@ -24,21 +24,21 @@ const questions = [
         message: "Provide a brief desrciption regarding what this application does.",
         name: "usage",
     },
-    {//is this needed
+    {
         type: "input",
-        message: "credits",
-        name: "credits",
+        message: "What resource(s) did you use to create this application?",
+        name: "resource",
     },
     {
-        type: "list", //how do i know which license to use
+        type: "list",
         message: "Select which license(s) the user should use.",
         choices: ["MIT", "IBM", "Apache"],
         name: "license",
     },
     {
-        type: "list", //how do i know which badges to use
+        type: "list",
         message: "Select which badge(s) you'd like to use.",
-        choices: ["Badge1", "Badge2"],
+        choices: ["Last Commit", "Issues", "Release Date"],
         name: "badge",
     },
     {
@@ -48,7 +48,7 @@ const questions = [
     },
     {
         type: "input",
-        message: "Project contributors (if any):",
+        message: "Project contributors:",
         name: "contributors",
     },
     {
