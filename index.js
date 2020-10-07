@@ -10,9 +10,10 @@ const questions = [
     },
     {
         type: "input",
-        message: "Provide a description of your application.",
+        message: "Provide a brief description of your application.",
         name: "description",
     },
+    //TABLE OF CONTENTS?
     {
         type: "input",
         message: "What is needed to install this application?",
@@ -20,25 +21,30 @@ const questions = [
     },
     {
         type: "input",
-        message: "Provide a brief desrciption for what this application does.",
+        message: "Provide a brief desrciption regarding what this application does.",
         name: "usage",
     },
-    {
+    {//is this needed
         type: "input",
         message: "credits",
         name: "credits",
     },
     {
-        type: "list",
+        type: "list", //how do i know which license to use
         message: "Select which license(s) the user should use.",
         choices: ["MIT", "IBM", "Apache"],
         name: "license",
     },
     {
-        type: "list",
+        type: "list", //how do i know which badges to use
         message: "Select which badge(s) you'd like to use.",
-        // choices: ["ADD BADGES ANDREA"],
+        choices: ["Badge1", "Badge2"],
         name: "badge",
+    },
+    {
+        type: "input",
+        message: "What is needed to test this application?",
+        name: "test"
     },
     {
         type: "input",
@@ -69,13 +75,15 @@ function writeToFile(fileName, data) {
 
 function init() {
     inquirer.prompt(questions).then(function(data){
-        axios.get("https://api.github.com/users/" + data.githubUsername).then(function(response){
-            data.githubProfile=response.data.html_url
-            const content=generateMarkdown(data)
+        generateMarkdown(data)
+        console.log(generateMarkdown(data))
+    //     *//axios.get("https://api.github.com/users/" + data.githubUsername).then(function(response){
+    //         data.githubProfile=response.data.html_url
+             const content=generateMarkdown(data)
             writeToFile("README.md", content)
-    })
-        })
-    
+    // })//*
+    console.log(data)
+})
 }
 
 init();
