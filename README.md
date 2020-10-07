@@ -1,7 +1,7 @@
 # Easy ReadMe Generator
 
     ## Application Description
-    A quick and easy way to create a ReadMe file
+    A quick and easy way to create a ReadMe file for your project.
 
     ## Table of Contents
     * [Installation](#installation)
@@ -11,7 +11,7 @@
 
     ## Installation
     The following items/steps are required to install this application:
-    Node, VS Code
+    Node - Inquirer and Axios
 
     ## Resource(s)
     Node, VS Code, Google
