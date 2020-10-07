@@ -13,16 +13,10 @@ const questions = [
         message: "Provide a brief description of your application.",
         name: "description",
     },
-    //TABLE OF CONTENTS?
     {
         type: "input",
         message: "What is needed to install this application?",
         name: "installation",
-    },
-    {
-        type: "input",
-        message: "Provide a brief desrciption regarding what this application does.",
-        name: "usage",
     },
     {
         type: "input",
