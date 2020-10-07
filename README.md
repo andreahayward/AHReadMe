@@ -1,7 +1,7 @@
 # Easy ReadMe Generator
 
     ## Application Description
-    An application for quickly and easily generating a ReadMe file
+    A quick and easy way to create a ReadMe file
 
     ## Table of Contents
     * [Installation](#installation)
@@ -14,13 +14,13 @@
     Node, VS Code
 
     ## Resource(s)
-    Node Inquirer, GitHub Shields, Google
+    Node, VS Code, Google
 
     ## License
     [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
     ## Badge
-    [![GitHub Issues](https://img.shields.io/github/issues-pr/cdnjs/cdnjs.svg?style=flat)]()
+    [![GitHub last comm](https://img.shields.io/github/last-commit/google/skia.svg?style=flat)]()
 
     ## Contributors
     Andrea Hayward
