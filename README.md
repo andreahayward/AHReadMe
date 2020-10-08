@@ -1,7 +1,7 @@
 # Easy ReadMe Generator
 
 ## Application Description
-A quick and easy way to generate a ReadMe file for your project or application.
+A quick and easy way to generate a ReadMe file for your application or project.
 
 ## Table of Contents
 * [Installation](#installation)
@@ -13,13 +13,13 @@ A quick and easy way to generate a ReadMe file for your project or application.
 Node - Inquirer & Axios
 
 ## Resource(s)
-Node, VS Code, Google
+Node, VS Code, NPM Website, Google
 
 ## License
-[![License: IPL 1.0](https://img.shields.io/badge/License-IPL%201.0-blue.svg)](https://opensource.org/licenses/IPL-1.0)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 ## Badge
-[![GitHub Issues](https://img.shields.io/github/issues-pr/cdnjs/cdnjs.svg?style=flat)]()
+[![GitHub last comm](https://img.shields.io/github/last-commit/google/skia.svg?style=flat)]()
 
 ## Contributors
 Andrea Hayward
@@ -28,7 +28,7 @@ Andrea Hayward
 Node, VS Code, GitHub
 
 ## Contact Info - For any additional questions or support please reach out:
-*GitHub Username: andreahayward
-*Email Address: andrea.teofilo@yahoo.com
+* GitHub Username: andreahayward
+* Email Address: andrea.teofilo@yahoo.com
 
     

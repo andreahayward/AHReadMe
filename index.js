@@ -19,11 +19,6 @@ const questions = [
         name: "installation",
     },
     {
-        type: "input",
-        message: "What resource(s) did you use to create this application?",
-        name: "resource",
-    },
-    {
         type: "list",
         message: "Select which license(s) the user should use.",
         choices: ["MIT", "IBM", "Apache"],
@@ -39,6 +34,11 @@ const questions = [
         type: "input",
         message: "What is needed to test this application?",
         name: "test"
+    },
+    {
+        type: "input",
+        message: "What resource(s) did you use to create this application?",
+        name: "resource",
     },
     {
         type: "input",
@@ -62,7 +62,6 @@ function writeToFile(fileName, data) {
         if (error){
             throw error
         }
-        console.log("Worked!")
         })
     
 }

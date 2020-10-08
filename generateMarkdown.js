@@ -30,8 +30,8 @@ ${data.contributors}
 ${data.test}
 
 ## Contact Info - For any additional questions or support please reach out:
-*GitHub Username: ${data.username}
-*Email Address: ${data.email}
+* GitHub Username: ${data.username}
+* Email Address: ${data.email}
 
     `;
 
