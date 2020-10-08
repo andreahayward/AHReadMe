@@ -29,10 +29,9 @@ ${data.contributors}
 ## Testing
 ${data.test}
 
-## Contact Info
-# For any additional questions or support please reach out:
-*${data.username}
-*${data.email}
+## Contact Info - For any additional questions or support please reach out:
+*GitHub Username: ${data.username}
+*Email Address: ${data.email}
 
     `;
 
