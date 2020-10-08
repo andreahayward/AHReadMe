@@ -69,9 +69,9 @@ function writeToFile(fileName, data) {
 
 function init() {
     inquirer.prompt(questions).then(function(data){
-        generateMarkdown(data)
-        console.log(generateMarkdown(data))
-       axios.get("https://api.github.com/users/" + data.githubUsername).then(function(response){
+        //generateMarkdown(data)
+        //console.log(generateMarkdown(data))
+       axios.get("https://api.github.com/users/" + data.username).then(function(response){
              data.githubProfile=response.data.html_url
              const content=generateMarkdown(data)
             writeToFile("README.md", content)

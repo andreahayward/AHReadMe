@@ -1,7 +1,7 @@
 # Easy ReadMe Generator
 
     ## Application Description
-    A quick and easy way to create a ReadMe file for your project.
+    A quick and easy way to generate a ReadMe file for your project or application.
 
     ## Table of Contents
     * [Installation](#installation)
