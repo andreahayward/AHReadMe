@@ -30,10 +30,9 @@ ${data.contributors}
 ${data.test}
 
 ## Contact Info
-
-*For any additional questions or support please reach out:
-${data.username}
-${data.email}
+# For any additional questions or support please reach out:
+*${data.username}
+*${data.email}
 
     `;
 

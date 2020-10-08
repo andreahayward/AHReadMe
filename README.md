@@ -1,9 +1,7 @@
-Link to Repo: https://github.com/andreahayward/AHReadMe
-
 # Easy ReadMe Generator
 
 ## Application Description
-A quick and easy way to generate a ReadMe file for your project or application.
+A quick and easy way to generate a ReadMe file for your project or application
 
 ## Table of Contents
 * [Installation](#installation)
@@ -12,7 +10,7 @@ A quick and easy way to generate a ReadMe file for your project or application.
 * [License](#license)
 
 ## Installation
-Node - Inquirer & Axios
+Node - Inquirer and Axios
 
 ## Resource(s)
 Node, VS Code, Google
@@ -21,7 +19,7 @@ Node, VS Code, Google
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Badge
-[![GitHub last comm](https://img.shields.io/github/last-commit/google/skia.svg?style=flat)]()
+[![GitHub Issues](https://img.shields.io/github/issues-pr/cdnjs/cdnjs.svg?style=flat)]()
 
 ## Contributors
 Andrea Hayward
@@ -30,9 +28,8 @@ Andrea Hayward
 Node, VS Code, GitHub
 
 ## Contact Info
-
-*For any additional questions or support please reach out:
-andreahayward
-andrea.teofilo@yahoo.com
+# For any additional questions or support please reach out:
+*andreahayward
+*andrea.teofilo@yahoo.com
 
     
