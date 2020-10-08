@@ -1,44 +1,36 @@
 # Easy ReadMe Generator
 
-    ## Application Description
+## Application Description
+A quick and easy way to generate a ReadMe file for your project or application.
 
-    A quick and easy way to generate a ReadMe File for your project or application
+## Table of Contents
+* [Installation](#installation)
+* [Usage](#usage)
+* [Resource(s)](#resource)
+* [License](#license)
 
-    ## Table of Contents
+## Installation
+Node - Inquirer & Axios
 
-    * [Installation](#installation)
-    * [Usage](#usage)
-    * [Resource(s)](#resource)
-    * [License](#license)
+## Resource(s)
+Node, VS Code, Google
 
-    ## Installation
+## License
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-    Node: Inquirer & Axios
+## Badge
+[![GitHub last comm](https://img.shields.io/github/last-commit/google/skia.svg?style=flat)]()
 
-    ## Resource(s)
+## Contributors
+Andrea Hayward
 
-    Node, VS Code, Google
+## Testing
+Node, VS Code, GitHub
 
-    ## License
+## Contact Info
 
-    [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
-    ## Badge
-
-    [![GitHub last comm](https://img.shields.io/github/last-commit/google/skia.svg?style=flat)]()
-
-    ## Contributors
-
-    Andrea Hayward
-
-    ## Testing
-
-    Node, VS Code, GitHub
-
-    ## Contact Info
-    
-    *For any additional questions or support please reach out:
-    andreahayward
-    andrea.teofilo@yahoo.com
+*For any additional questions or support please reach out:
+andreahayward
+andrea.teofilo@yahoo.com
 
     
